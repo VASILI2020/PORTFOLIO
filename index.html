@@ -5,112 +5,186 @@
   <title>Vasili Srinivas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="stylesheet.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<table width="800" align="center" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
+<div class="container">
 
-     <p style="text-align:center">
-  <img src="assets/images/profilepic.png"
-       alt="Vasili Srinivas"
-       width="160"
-       class="fade"><br><br>
+  <!-- Header -->
+  <p class="header">
+    <img src="assets/images/profile.jpg" alt="Vasili Srinivas" class="profile-pic">
+    <name>Vasili Srinivas</name><br>
+    Senior R&D Professional – Refrigeration Systems<br>
+    Hyderabad, India |
+    <a href="mailto:vasili_senu@rediffmail.com">vasili_senu@rediffmail.com</a>
+  </p>
 
-  <name>Vasili Srinivas</name><br>
+  <!-- Navigation -->
+  <p class="nav">
+    <a href="#about" data-target="about">About Me</a> |
+    <a href="#experience" data-target="experience">Experience</a> |
+    <a href="#skills" data-target="skills">Skills</a> |
+    <a href="#projects" data-target="projects">Projects</a> |
+    <a href="#research" data-target="research">Research</a> |
+    <a href="#volunteering" data-target="volunteering">Volunteering</a> |
+    <a href="#contact" data-target="contact">Contact</a>
+  </p>
 
-        Senior R&D Professional – Refrigeration Systems<br>
-        Hyderabad, India |
+  <hr>
+
+  <!-- About -->
+  <div class="section" id="about">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>About Me</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <p>
+        Senior R&D professional with 22+ years of experience in refrigeration
+        systems, global product development, laboratory accreditation, and
+        academic teaching.
+      </p>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="section" id="experience">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Professional Experience</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>General Manager – Global R&D (Veeline Industries)</li>
+        <li>Former R&D Lead – Coca-Cola Global R&D (CIMTECH Systems)</li>
+        <li>ISO/IEC 17025 lab setup & international patents</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="section" id="skills">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Technical Skills</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+
+      <div class="skill-category">
+        <div class="skill-category-title">Programming</div>
+        <div class="skills">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">SQL</span>
+          <span class="skill-chip">HTML</span>
+          <span class="skill-chip">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Tools & Platforms</div>
+        <div class="skills">
+          <span class="skill-chip">Docker</span>
+          <span class="skill-chip">Power BI</span>
+          <span class="skill-chip">Tableau</span>
+          <span class="skill-chip">AWS</span>
+          <span class="skill-chip">GCP</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="section" id="projects">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Projects</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>Modular Panel Cooler with PCM – Coca-Cola</li>
+        <li>Energy-efficient commercial refrigeration systems</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Research -->
+  <div class="section" id="research">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Research</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <p>Ph.D (Pursuing) – Thermal systems and refrigeration optimization.</p>
+    </div>
+  </div>
+
+  <!-- Volunteering -->
+  <div class="section" id="volunteering">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Volunteering</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <p>Academic examination administration and mentoring.</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="section" id="contact">
+    <div class="section-header" onclick="toggleSection(this)">
+      <heading>Contact</heading>
+      <span class="arrow">▶</span>
+    </div>
+    <div class="section-content">
+      <p>
+        Email:
         <a href="mailto:vasili_senu@rediffmail.com">vasili_senu@rediffmail.com</a>
       </p>
+    </div>
+  </div>
 
-      <hr>
+  <hr>
 
-      <heading>Executive Summary</heading>
-      <p>
-        Senior R&D Professional with <strong>22+ years of experience</strong>
-        in product design, development, and lifecycle management of
-        <strong>commercial and domestic refrigeration appliances</strong>,
-        supported by <strong>7 years of academic teaching experience</strong>.
-      </p>
-      <p>
-        Extensive global exposure through leadership roles in
-        <strong>COCA-COLA funded global R&D programs</strong>,
-        high-volume manufacturing environments, and consultancy engagements.
-      </p>
+  <p style="text-align:center;">
+    <em>© Vasili Srinivas – Professional Portfolio</em>
+  </p>
 
-      <heading>Core Competencies</heading>
-      <ul>
-        <li>Commercial & Domestic Refrigeration Systems</li>
-        <li>Product Design, Development & Lifecycle Management</li>
-        <li>High-Volume Manufacturing & Cost Optimization</li>
-        <li>Energy Efficiency, Certification & Performance Testing</li>
-        <li>Refrigerants: R290, R600a, CO₂, R134a</li>
-        <li>Global R&D Leadership & Program Management</li>
-        <li>Academic Teaching & Knowledge Transfer</li>
-        <li>Data Engineering (Azure, Databricks, PySpark, dbt)</li>
-        <li>AI Agents, RAG Systems & Workflow Automation</li>
-      </ul>
+</div>
 
-      <heading>Professional Experience</heading>
+<!-- JavaScript -->
+<script>
+  function toggleSection(header) {
+    const content = header.nextElementSibling;
+    const arrow = header.querySelector(".arrow");
 
-      <p>
-        <strong>Consultant – Commercial Refrigeration</strong><br>
-        Ice Make Refrigeration, Ahmedabad (2024)
-      </p>
-      <ul>
-        <li>Chest Freezer design & manufacturing (300–600 L)</li>
-        <li>Energy Star compliance and system performance resolution</li>
-        <li>R290-based refrigeration system design and testing</li>
-      </ul>
+    content.classList.toggle("open");
+    arrow.classList.toggle("open");
+  }
 
-      <p>
-        <strong>General Manager (Technical)</strong><br>
-        Veeline Industries, New Delhi (2023)
-      </p>
-      <ul>
-        <li>Led R&D for Visi Coolers, Chest Freezers & Minibar Refrigerators</li>
-        <li>Managed cross-functional engineering teams</li>
-        <li>Resolved system issues using R290 & R600a</li>
-      </ul>
+  document.querySelectorAll(".nav a").forEach(link => {
+    link.addEventListener("click", function () {
+      const targetId = this.getAttribute("data-target");
+      const section = document.getElementById(targetId);
 
-      <p>
-        <strong>General Manager – Global R&D</strong><br>
-        CIMTECH Systems Pvt. Ltd., Hyderabad (2006–2016)
-      </p>
-      <ul>
-        <li>Headed Global Engineering Design & Testing Facility for COCA-COLA</li>
-        <li>Managed 40 engineers across design and validation</li>
-        <li>Achieved ISO/IEC 17025 laboratory accreditation</li>
-      </ul>
+      if (!section) return;
 
-      <heading>Patents & Achievements</heading>
-      <ul>
-        <li>International patents filed for Modular Panel Coolers & PCM Heat Exchangers</li>
-        <li>Established global R&D and test facilities from inception</li>
-        <li>International exposure: USA, China, Europe</li>
-      </ul>
+      const content = section.querySelector(".section-content");
+      const arrow = section.querySelector(".arrow");
 
-      <heading>Education</heading>
-      <ul>
-        <li>Ph.D (Pursuing) – Osmania University</li>
-        <li>M.Tech – Refrigeration & Air Conditioning (Distinction)</li>
-        <li>B.E – Mechanical Engineering (Distinction)</li>
-      </ul>
-
-      <br>
-      <hr>
-      <p style="text-align:center">
-        <em>Professional portfolio focused on Refrigeration Engineering and AI-enabled systems</em>
-      </p>
-
-    </td>
-  </tr>
-</table>
+      if (!content.classList.contains("open")) {
+        content.classList.add("open");
+        arrow.classList.add("open");
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
