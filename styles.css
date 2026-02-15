@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f09228;
+}
+
+.header {
+  text-align: center;
+}
+
+name {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a4ed8;
+}
+
+heading::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #f09228;
+  margin-top: 4px;
+}
+
+.profile-pic {
+  width: 160px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav a {
+  margin: 0 6px;
+  font-weight: 500;
+}
+
+.section {
+  margin-bottom: 18px;
+}
+
+.section-header {
+  cursor: pointer;
+  padding: 10px 4px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.25s ease;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+.section-content {
+  display: none;
+  padding: 10px 8px;
+}
+
+.section-content.open {
+  display: block;
+}
+
+.skill-category {
+  margin-bottom: 14px;
+}
+
+.skill-category-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.skill-chip {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 6px 12px;
+  margin: 4px 6px 0 0;
+  border-radius: 8px;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.skill-chip:hover {
+  background-color: #1772d0;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
