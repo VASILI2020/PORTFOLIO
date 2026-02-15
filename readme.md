@@ -1,6 +1,7 @@
 # Vasili Srinivas – GitHub Pages Portfolio
 
-This repository hosts my **professional GitHub Pages website**.
+This repository hosts my **static professional website** built using
+HTML and CSS and served via **GitHub Pages**.
 
 🌐 **Live Website**  
 https://<your-username>.github.io
@@ -9,19 +10,11 @@ https://<your-username>.github.io
 
 ## About
 Senior R&D Professional with 22+ years of experience in:
-- Commercial & Domestic Refrigeration Engineering
+- Commercial & Domestic Refrigeration Systems
 - Global R&D Leadership
-- Product Design & Manufacturing
+- Product Design & High-Volume Manufacturing
 - Academic Teaching
 - Data Engineering & AI Systems
-
----
-
-## Repository Purpose
-This repository is intended to:
-- Host my professional website
-- Showcase experience, leadership, and technical expertise
-- Serve as a long-term professional portfolio
 
 ---
 
@@ -29,7 +22,6 @@ This repository is intended to:
 
 ```text
 /
-├── index.html     # Website homepage
-├── README.md      # Repository overview
-├── _config.yml    # GitHub Pages configuration
-└── assets/        # Images & static resources
+├── index.html        # Main website
+├── stylesheet.css   # Global styles (fonts, layout, colors)
+├── README.md        # Repository overview
