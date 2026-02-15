@@ -1,0 +1,34 @@
+title: Vasili Srinivas
+description: >
+  Senior R&D Professional in Refrigeration Systems |
+  Global R&D Leadership |
+  Data & AI Engineering
+
+theme: jekyll-theme-minimal
+
+logo: /assets/img/profile.png   # optional (add later)
+show_downloads: false
+
+author:
+  name: Vasili Srinivas
+  email: vasili_senu@rediffmail.com
+  location: Hyderabad, India
+
+github:
+  is_project_page: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+seo:
+  type: Person
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.old.md
+  - node_modules
+  - vendor
